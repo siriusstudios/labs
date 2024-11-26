@@ -5,8 +5,6 @@ import java.lang.Math;
 public class Main {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<Integer>();
-
-        numbers.add((int) Math.floor(Math.random() * 100));
         numberGenerator(numbers);
 
         numbers.stream()
